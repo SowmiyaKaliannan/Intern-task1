@@ -9,8 +9,7 @@ function addTask() {
         li.innerHTML = inputBox.value;
         listcontainer.appendChild(li);
         let span = document.createElement("span");  // create a span tag
-        span.innerHTML = "\u00d7";                   //  span.innerhtml --add cross icon in span tag
-        // \u00d7 is cross icon, innerHtml adds the contents to html
+        span.innerHTML = "\u00d7";                   
 
         li.appendChild(span);
     }
